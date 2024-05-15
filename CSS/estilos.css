@@ -70,7 +70,8 @@ main .jumbotron {
   text-shadow: 0 0 5px #000;
 }
 
-.cleft, .pleft {
+.cleft,
+.pleft {
   background-size: cover;
   background-position: center;
   height: 500px;
@@ -84,7 +85,8 @@ main .jumbotron {
   background-image: url(../assets/muchaspaletas.webp) !important;
 }
 
-.cright a, .pright {
+.cright a,
+.pright {
   text-decoration: none;
   color: #EF27A6;
 }
@@ -94,7 +96,8 @@ main .jumbotron {
   text-shadow: 0 0 5px black;
 }
 
-.paletas, .padelProfesional {
+.paletas,
+.padelProfesional {
   text-align: center;
   color: white;
   background-size: cover;
@@ -110,6 +113,74 @@ main .jumbotron {
   background-color: #F86624;
 }
 
+.galeria {
+  display: flex;
+  flex-wrap: wrap;
+  margin: -10px;
+}
+.galeria .galeria-foto {
+  width: calc(33.3333333333% - 20px);
+  margin: 10px;
+  transition: transform 0.3s ease;
+}
+.galeria .galeria-foto img {
+  width: 100%;
+  height: auto;
+  border: 5px solid #EF27A6;
+  border-radius: 5px;
+}
+.galeria .galeria-foto:hover {
+  transform: scale(0.9);
+}
+.galeria .galeria-foto:nth-child(7) {
+  width: calc(33.3333333333% - 20px);
+  margin: 10px;
+  transition: transform 0.3s ease;
+}
+.galeria .galeria-foto:nth-child(7):hover {
+  transform: scale(0.9);
+}
+.galeria .galeria-foto:nth-child(8) {
+  width: calc(33.3333333333% - 20px);
+  margin: 10px;
+  transition: transform 0.3s ease;
+}
+.galeria .galeria-foto:nth-child(8):hover {
+  transform: scale(0.9);
+}
+.galeria .galeria-foto:nth-child(9) {
+  width: calc(33.3333333333% - 20px);
+  margin: 10px;
+  transition: transform 0.3s ease;
+}
+.galeria .galeria-foto:nth-child(9):hover {
+  transform: scale(0.9);
+}
+.galeria .galeria-foto:nth-child(10) {
+  width: calc(33.3333333333% - 20px);
+  margin: 10px;
+  transition: transform 0.3s ease;
+}
+.galeria .galeria-foto:nth-child(10):hover {
+  transform: scale(0.9);
+}
+.galeria .galeria-foto:nth-child(11) {
+  width: calc(33.3333333333% - 20px);
+  margin: 10px;
+  transition: transform 0.3s ease;
+}
+.galeria .galeria-foto:nth-child(11):hover {
+  transform: scale(0.9);
+}
+.galeria .galeria-foto:nth-child(12) {
+  width: calc(33.3333333333% - 20px);
+  margin: 10px;
+  transition: transform 0.3s ease;
+}
+.galeria .galeria-foto:nth-child(12):hover {
+  transform: scale(0.9);
+}
+
 .reglas {
   color: #F86624;
   background-color: white;
@@ -119,9 +190,70 @@ main .jumbotron {
 .reglas .listaReglas li {
   list-style-type: none;
 }
-.reglas .rbleft, .reglas .rbright {
+.reglas .rbleft,
+.reglas .rbright {
   text-decoration: none;
   color: green;
+}
+
+.chingoB-golpe,
+.martinV-golpe,
+.tapiaSq-golpe,
+.leoS-golpe {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 250px;
+  width: 400px;
+  border: 2px solid #333;
+}
+
+.chingoB-golpe {
+  background-image: url("../assets/chingoB.webp");
+  background-size: cover;
+  background-position: center;
+  transition: transform 0.3s ease;
+}
+.chingoB-golpe:hover {
+  transform: scale(1.1);
+}
+
+.martinV-golpe {
+  background-image: url("../assets/martinV.webp");
+  background-size: cover;
+  background-position: center;
+  transition: transform 0.3s ease;
+}
+.martinV-golpe:hover {
+  transform: scale(1.1);
+}
+
+.tapiaSq-golpe {
+  background-image: url("../assets/tapiaSq.webp");
+  background-size: cover;
+  background-position: center;
+  transition: transform 0.3s ease;
+}
+.tapiaSq-golpe:hover {
+  transform: scale(1.1);
+}
+
+.leoS-golpe {
+  background-image: url("../assets/leoS.webp");
+  background-size: cover;
+  background-position: center;
+  transition: transform 0.3s ease;
+}
+.leoS-golpe:hover {
+  transform: scale(1.1);
+}
+
+.golpes {
+  color: #000;
+  background-color: #FCEFF9;
+  border: 2px solid black;
+  border-radius: 10px;
+  text-align: center;
 }
 
 .bcontacto {
@@ -152,5 +284,6 @@ main .jumbotron {
 footer a {
   font-size: 30px;
   color: white;
+  text-shadow: 0 0 5px #000 !important;
   letter-spacing: 15px;
 }/*# sourceMappingURL=estilos.css.map */
