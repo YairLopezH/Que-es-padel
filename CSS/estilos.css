@@ -1,0 +1,156 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+body {
+  font-family: "Bebas Neue";
+  min-height: 100%;
+  background-color: #13293D;
+  background-size: cover;
+  background-position: center;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.fheader {
+  background-color: #21D4FD;
+  background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);
+  background-size: cover;
+  background-position: center;
+  font-size: 30px !important;
+}
+.fheader .navbar-nav .nav-link {
+  text-shadow: 0 0 5px black;
+  color: white;
+  transition: color 0.3s;
+}
+.fheader .navbar-nav .nav-link:hover {
+  color: #F86624;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+main .jumbotron {
+  color: white;
+  text-shadow: 0 0 5px #000;
+  background-image: url(../assets/backgroud-main.webp) !important;
+  background-size: cover;
+  background-position: center;
+}
+
+.btn a {
+  text-decoration: none;
+  color: white;
+}
+
+.separadores {
+  background-color: #35FF69;
+  text-align: center;
+  padding: 20px;
+  color: #fff;
+  text-shadow: 0 0 5px #000;
+}
+
+.separadores2 {
+  background-color: #EF27A6;
+  text-align: center;
+  padding: 20px;
+  color: #fff;
+  text-shadow: 0 0 5px #000;
+}
+
+.separadores3 {
+  background-color: #53D8FB;
+  text-align: center;
+  padding: 20px;
+  color: #fff;
+  text-shadow: 0 0 5px #000;
+}
+
+.cleft, .pleft {
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+}
+
+.cleft {
+  background-image: url(../assets/tapiaSmash.webp) !important;
+}
+
+.pleft {
+  background-image: url(../assets/muchaspaletas.webp) !important;
+}
+
+.cright a, .pright {
+  text-decoration: none;
+  color: #EF27A6;
+}
+
+.cpright {
+  background-color: #53D8FB;
+  text-shadow: 0 0 5px black;
+}
+
+.paletas, .padelProfesional {
+  text-align: center;
+  color: white;
+  background-size: cover;
+  text-shadow: 0 0 5px black;
+}
+
+.padelProfesional {
+  background-color: #53D8FB;
+  text-shadow: 0 0 5px black;
+}
+
+.paletas {
+  background-color: #F86624;
+}
+
+.reglas {
+  color: #F86624;
+  background-color: white;
+  border: 2px solid black;
+  text-align: center;
+}
+.reglas .listaReglas li {
+  list-style-type: none;
+}
+.reglas .rbleft, .reglas .rbright {
+  text-decoration: none;
+  color: green;
+}
+
+.bcontacto {
+  background-color: grey;
+}
+
+.formulariosc {
+  color: white;
+  background-color: blue;
+  background-size: cover;
+  text-align: center;
+}
+
+.formalign footer {
+  background-image: url(../assets/footerBackground.webp) !important;
+  background-size: cover !important;
+  background-position: center !important;
+  text-align: center !important;
+}
+
+.footerc {
+  text-align: center !important;
+  background-image: url(../assets/footerBackground.webp) !important;
+  background-size: cover !important;
+  background-position: center !important;
+}
+
+footer a {
+  font-size: 30px;
+  color: white;
+  letter-spacing: 15px;
+}/*# sourceMappingURL=estilos.css.map */
